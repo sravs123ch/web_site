@@ -46,7 +46,7 @@ export default function Navbar({ currentPage, onNavigate }) {
   return (
     <>
       {/* Top Contact Bar */}
-      <div className="bg-blue-900 text-white py-2 px-4">
+      {/* <div className="bg-blue-900 text-white py-2 px-4">
         <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center text-sm">
           <div className="flex items-center gap-4">
             <a href="tel:+919876543210" className="flex items-center gap-2 hover:text-blue-200 transition">
@@ -60,7 +60,7 @@ export default function Navbar({ currentPage, onNavigate }) {
           </div>
           <div className="text-xs">Mon - Sat: 9:00 AM - 6:00 PM</div>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Navbar */}
       <nav className="bg-white shadow-md sticky top-0 z-50">

@@ -62,7 +62,7 @@ export default function App() {
     <div className="min-h-screen">
       <Navbar currentPage={currentPage} onNavigate={setCurrentPage} />
       <main>{renderPage()}</main>
-      <Footer onNavigate={setCurrentPage} />
+      {/* <Footer onNavigate={setCurrentPage} /> */}
     </div>
   );
 }
